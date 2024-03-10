@@ -1,0 +1,21 @@
+footer {
+    background-color: #f0f0f0;
+}
+.footer_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px 0;
+    flex-wrap: wrap;
+}
+[class*="_side"] {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.footer_h4 {
+    font-family: 'Playfair Display', serif;
+    text-transform: none;
+    color: #000000;
+    font-weight: 500;
+}
